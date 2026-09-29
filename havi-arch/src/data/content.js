@@ -12,6 +12,7 @@ export const navLinks = [
   { label: "Services", href: "#services" },
   { label: "Process", href: "#process" },
   { label: "Studio", href: "#studio" },
+  { label: "Reviews", href: "#reviews" },
 ];
 
 export const hero = {
@@ -118,3 +119,31 @@ export const studio = {
     "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1400&q=80",
   imageAlt: "Architectural drawings and tools on a desk",
 };
+
+export const reviews = [
+  {
+    quote: "The team listened carefully to what mattered to us and turned it into a home that feels considered in every detail.",
+    client: "Residential client",
+    project: "New home",
+  },
+  {
+    quote: "From the first site visit, the process felt clear. We always knew what had been decided and what came next.",
+    client: "Residential client",
+    project: "Home renovation",
+  },
+  {
+    quote: "They made a difficult layout feel simple, and the finished space works beautifully for our whole family.",
+    client: "Residential client",
+    project: "Home extension",
+  },
+  {
+    quote: "The drawings and coordination gave our contractor the clarity to build with fewer surprises on site.",
+    client: "Commercial client",
+    project: "Office design",
+  },
+  {
+    quote: "Thoughtful with the budget, patient with our questions, and careful about the details that make a place feel right.",
+    client: "Residential client",
+    project: "Interior design",
+  },
+];
