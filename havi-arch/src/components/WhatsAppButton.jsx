@@ -1,7 +1,7 @@
 import { SiWhatsapp } from "react-icons/si";
 
 export default function WhatsAppButton() {
-  const phoneNumber = "923001234567";
+  const phoneNumber = "923046060476";
   const message = encodeURIComponent("Hello, I'd like to discuss a project.");
 
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
